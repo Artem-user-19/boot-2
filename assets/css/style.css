@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+        background:
+               /* top, transparent black, faked with gradient */ 
+               linear-gradient(
+                 rgba(0, 0, 0, 0.7), 
+                 rgba(0, 0, 0, 0.7)
+               ),
+               /* bottom, image */
+               url(../imgs/bg-img.jpg);
+               background-repeat: no-repeat;
+               background-attachment: fixed;
+               background-size: cover;
+               background-position:center;
+           }
+
+.img{
+    width: 100px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.d-block{
+    width: 500px;
+}
+
+.d-block:nth-of-type(4){
+    width: 400px;
+}
+
+.carousel-control-prev-icon{
+    margin-left:-150px ;
+}
+
+.carousel-control-next-icon{
+    margin-left: -2600px;;
+}
+
+.carousel-inner{
+    margin-top: 10px;
+}
+
+.accordion{
+    padding-left: 505px;
+    padding-right: 295px;
+    margin-top: -200px;
+}
+
+.card{
+    margin-left: 1630px;
+    margin-top: -280px;
+}
+.form-check-label,
+.form-label,
+.form-text{
+    color: white;
+}
+
+@media (max-width:1629px){
+    .card{
+        margin-left: 1340px;
+    }
+    .carousel-control-next-icon{
+        margin-right: -500px;
+    }
+}
+
+@media (min-width:1400px) and (max-width:1628px) {
+    .card{
+        margin-left: 1310px;
+    }
+    .carousel-control-next-icon{
+        margin-right: -500px;
+    }
+}
+
+@media (max-width:1598px){
+    .card{
+        margin-left: 1310px;
+    }
+}
+
+@media (max-width:1596px){
+    .card{
+        margin-left: 1300px;
+    }
+}
+
+@media (max-width:1587px){
+    .card{
+        margin-left: 1290px;
+    }
+}
+
+@media (max-width:1577px){
+    .card{
+        margin-right: -1400px;
+    }
+}
+
+@media (max-width:1577px){
+    .card{
+        margin-left: 1285px;
+    }
+}
+
+@media (max-width:1572px){
+    .card{
+        flex-direction: column;
+        margin-left: 1280px;
+    }
+}
+
+@media (max-width:1567px){
+    .card{
+        margin-left: 1275px;
+    }
+}
+
+@media (max-width:1562px){
+    .card{
+        margin-left: 1269px;
+    }
+}
+
+@media (max-width:1539px){
+    .card{
+        margin-left: 1249px;
+    }
+}
+
+@media (max-width:1510px){
+    .card{
+        margin-left: 1219px;
+    }
+}
+
+@media (max-width:1506px){
+    .card{
+        margin-left: 1210px;
+    }
+}
